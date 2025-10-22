@@ -71,3 +71,33 @@ body {
   .carousel {
     margin-top: 10%;
   }
+
+
+
+
+  /* Desktop styles */
+@media (min-width: 1024px) {
+  .brand {
+    font-size: 7rem;     /* larger logo-style heading */
+    font-weight: 700;
+    letter-spacing: 2px; /* slight luxury feel */
+    margin-top:0px;
+  }
+
+  .panel--intro h1 {
+    font-size: 3rem;     /* make tagline more proportional */
+  }
+
+  .panel--intro p {
+    font-size: 1.25rem;  /* smoother paragraph scale */
+    line-height: 1.6;
+  }
+
+  .intro-logo {
+    max-width: 200px;    /* give logo more presence */
+  }
+
+  .panel--intro {
+    padding-top: 10px;
+  }
+}
